@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is Activity 2</h1>
+    <h2>Proper File Setup (10 points)</h2>
+    <p>Create activity 3 HTML file in activities folder<br>
+    Usage head and Tags (10 points)
+Use h1 tag within to display page title Have <em>at least 6 paragraph</em> tags with appropriate source <strong>citation</strong> inside of section
+<mark><br> At least 5 text styling tags in paragraphs</mark>
+Use blockquote tags in with appropreate source citation.<br>Have copyright symbol inside of footer</p>
+&copy; Pelekina &amp; Manuila
+    <br>
+    <hr>
+
+    <blockquote></blockquote>
+</body>
+</html>
