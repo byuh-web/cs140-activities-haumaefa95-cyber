@@ -1,13 +1,9 @@
-header h1 {
-    color: rgb(182, 8, 159);
-    font-size: 30px;
+.a {
+    list-style-type: lower-alpha;
 }
-header h1 {
-    background-color: #93D94E;
+.b {
+    list-style-type: upper-roman;
 }
-#first {
-    color: rgb(95, 3, 131);
-}
-.darker {
-    color: #ad0497;
+.c {
+    list-style-type: square;
 }
