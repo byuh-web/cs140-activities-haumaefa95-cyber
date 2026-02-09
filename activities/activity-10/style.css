@@ -1,0 +1,8 @@
+.example-div {
+    background-color: darkcyan;
+    border: 20px solid red;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 40px;
+    text-align: center;
+}
