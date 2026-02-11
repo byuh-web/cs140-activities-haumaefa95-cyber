@@ -1,8 +1,28 @@
 .example-div {
-    background-color: darkcyan;
-    border: 20px solid red;
+    background-color: rgb(54, 231, 231);
+    border: 5px solid rgb(103, 187, 202);
     box-sizing: border-box;
-    padding: 20px;
+    padding: 0;
+    margin: 50px;
+    text-align: center;
+    
+}
+.example-box {
+    background-color: rgb(47, 228, 228);
+    border: 5px solid rgb(36, 196, 207);
+    box-sizing: border-box;
+    padding: 0;
     margin: 40px;
     text-align: center;
+    text-size-adjust: 12px;
+    clear: both;
+}
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#pic {
+    width: 500px;
+    float: right;
 }
