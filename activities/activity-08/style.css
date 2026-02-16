@@ -1,0 +1,9 @@
+.a {
+    list-style-type: lower-alpha;
+}
+.b {
+    list-style-type: upper-roman;
+}
+.c {
+    list-style-type: square;
+}
