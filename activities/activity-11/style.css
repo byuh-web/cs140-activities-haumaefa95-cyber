@@ -26,26 +26,29 @@ img {
 
 #pic {
     width: 500px;
-    float: right;
+    float: left;
+    margin-top: 0;
 }
 nav {
-    background-color: rgb(238, 163, 51);
-    border: 5px solid rgb(207, 127, 6);
     box-sizing: border-box;
     padding: 0;
     margin: 40px;
     text-align: center;
     text-size-adjust: 12px;
     clear: both;
-    border-radius: 15px;
 }
 
 nav a {
     text-decoration: none;
     color: blue;
-    padding: 0 10px 010px;
+    padding: 15px 30px;
+    background-color: rgb(238, 163, 51);
+    border: 5px solid rgb(207, 127, 6);
+    margin: 0 10px 0 10px;
+    border-radius: 15px;
 }
 
 a:hover {
     color: aqua;
+    background-color: rgb(51, 85, 238);
 }
