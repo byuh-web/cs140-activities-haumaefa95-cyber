@@ -3,7 +3,7 @@ header h1 {
     background-color: rgb(19, 246, 250);
     border: 3px solid rgb(68, 171, 226);
     margin: 20px 5px 20px 5px;
-    
+
 }
 nav {
     box-sizing: border-box;
@@ -28,4 +28,7 @@ nav a {
 a:hover {
     color: aqua;
     background-color: rgb(51, 85, 238);
+}
+img {
+    width: 100%;
 }
