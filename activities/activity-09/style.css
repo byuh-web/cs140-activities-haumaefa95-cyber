@@ -20,7 +20,12 @@ a:hover {
     color: aqua;
     background-color: rgb(51, 85, 238);
 }
+
 img {
     width: 100%;
     border-radius: 15px;
+}
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
 }
