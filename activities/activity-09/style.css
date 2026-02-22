@@ -19,15 +19,15 @@ nav {
 }
 nav a {
     text-decoration: none;
-    color: rgb(10, 76, 218);
+    color: rgb(44, 61, 96);
     padding: 15px 30px;
     margin: 0 10px 0 10px;
     border-radius: 15px;
 }
 
 a:hover {
-    color: aqua;
-    background-color: rgb(51, 85, 238);
+    color: rgb(27, 18, 5);
+    background-color: rgb(35, 80, 243);
 }
 
 img {
