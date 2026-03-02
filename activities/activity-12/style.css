@@ -6,7 +6,18 @@ header h1 {
 	padding: 5px;
     
 }
-
+nav {
+    background-color: rgb(72, 235, 247);
+    border: 5px solid rgb(14, 221, 211);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 50px;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    
+}
 
 
 .parent {
@@ -42,4 +53,14 @@ img {
 main {
     display: grid;
     grid-template-columns: 30% 70%;
+}
+footer nav {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 40px;
+    text-align: center;
+    text-size-adjust: 12px;
+    clear: both;
+    display: grid;
+    grid-template-columns: 5fr 4fr 4fr 4fr;
 }
