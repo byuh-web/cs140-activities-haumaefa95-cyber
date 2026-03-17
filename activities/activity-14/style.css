@@ -4,3 +4,15 @@ th {
     color: #791be4;
     border-radius: 10px;
 }
+h1 {
+    color: rgb(12, 99, 99);
+    border: 5px solid rgba(10, 47, 138, 0.615);
+    text-align: center;
+}
+h2 {
+    color: rgb(136, 127, 255);
+}
+footer {
+    color: red;
+    text-align: right;
+}
