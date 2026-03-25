@@ -7,23 +7,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header><h1>Welcome to my form project</h1></header>
+    <main>
     <form>
-        
+
         <label for="Name">Name:</label><br>
         <input type="text" id="Name" name="name"><br><br>
 
         <label for="Name">How are you from:</label><br>
-        <input type="text" id="How are you from" name="name"><br>
+        <input type="text" id="How are you from" name="name"><br><br>
 
+        <div class="pele">
+            <label  for="username">Username:</label>
+            <input type="text" id="username" name="username"><br>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br>
+        </div>
         <p>Gender:</p>
-        <input type="radio" id="Male" name="Gender" value="Male">
-        <label for="Male">Male</label><br>
+        <div class="kina">
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Male">Male</label><br>
 
-        <input type="radio" id="Female" name="Gender" value="Female">
-        <label for="Female">Female</label><br><br>
-       
-        <label for="Hobbie">Hobbie:</label><br>
-        <input type="text" id="Hobbie" name="Hobbie"><br><br>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label><br><br>
+        </div><br>
+
+        <label for="Hobbies">Hobbies:</label><br>
+        <select id="Hobbie" name="Hobbie" aria-placeholder="option">
+            <option disabled hidden selected>Choose One</option>
+            <option>Eating</option>
+            <option>Sleeping</option>
+            <option>Scrolling</option>
+        </select><br>
 
         <label for="numbers">Number of Semester:</label><br>
         <input type="number" id="numbers" name="numbers"><br><br>
@@ -32,14 +48,16 @@
         <input type="email" id="email" name="email"><br><br>
         
         <label for="text">Check what are you good at;</label><br>
-        <input type="checkbox" name="skills" id="html" value="HTML">
-        <label for="html">HTML</label><br>
+        <div>
+            <input type="checkbox" name="skills" id="html" value="HTML">
+            <label for="html">HTML</label><br>
 
-        <input type="checkbox" name="skills" id="css" value="CSS">
-        <label for="css">CSS</label><br>
+            <input type="checkbox" name="skills" id="css" value="CSS">
+            <label for="css">CSS</label><br>
 
-        <input type="checkbox" name="skills" id="eating candies" value="eating candies">
-        <label for="eating candies">EATING CANDIES</label><br><br>
+            <input type="checkbox" name="skills" id="eating candies" value="eating candies">
+            <label for="eating candies">EATING CANDIES</label><br><br>
+        </div>
 
         <label for="message">Message:</label><br>
         <textarea name="message" id="message" rows="4" cols="30"></textarea><br><br>
@@ -47,5 +65,7 @@
         <input type="submit" name="submit" id="submit">
 
     </form>
+    </main>
+    <footer>&copy; Pelekina</footer>
 </body>
 </html>
