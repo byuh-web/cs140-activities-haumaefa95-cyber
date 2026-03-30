@@ -1,0 +1,40 @@
+header h1 {
+    text-align: center;
+    background-color: rgb(19, 246, 250);
+    border: 3px solid rgb(68, 171, 226);
+    margin: 20px 5px 20px 5px;
+
+}
+nav {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 40px;
+    text-align: center;
+    text-size-adjust: 12px;
+    clear: both;
+    background-color: rgb(19, 246, 250);
+    border: 5px solid rgb(68, 171, 226);
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+nav a {
+    text-decoration: none;
+    color: rgb(44, 61, 96);
+    padding: 15px 30px;
+    margin: 0 10px 0 10px;
+    border-radius: 15px;
+}
+
+a:hover {
+    color: rgb(27, 18, 5);
+    background-color: rgb(35, 80, 243);
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
