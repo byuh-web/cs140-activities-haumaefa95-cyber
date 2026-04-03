@@ -7,28 +7,30 @@ header h1 {
 }
 nav {
     box-sizing: border-box;
-    padding: 0;
+    padding: 1%;
     text-align: center;
     text-size-adjust: 12px;
     clear: both;
     background-color: rgb(19, 246, 250);
-    border: 5px solid rgb(68, 171, 226);
+    border: 5px solid rgb(103, 190, 236);
     display: flex;
     flex-wrap: wrap;
     align-self: center;
     justify-content: center;
+    overflow: hidden;
+    background-color: #0eebf7;
+    position: relative;
 }
 nav a {
+    color: white;
+    padding: 14px 16px;
     text-decoration: none;
-    color: rgb(44, 61, 96);
-    padding: 15px 30px;
-    margin: 0 10px 0 10px;
-    border-radius: 15px;
+    font-size: 17px;
 }
 
 nav a:hover {
-    color: rgb(27, 18, 5);
-    background-color: rgb(35, 80, 243);
+    background-color: #ddd;
+    color: black;
 }
 
 img {
@@ -40,10 +42,33 @@ iframe {
     border: thick solid rgb(20, 11, 11);
 }
 
-@media only screen and (max-width: 700px) {   
+
+@media only screen and (max-width: 950px) {   
     nav {
         flex-wrap: nowrap;
         flex-direction: column;
     }
+    .topnav {
+      overflow: hidden;
+      background-color: #467274;
+      position: relative;
+    }
+    .topnav #myLinks {
+      display: none;
+    }
+
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
 
 } 
