@@ -1,3 +1,58 @@
+header {
+    text-align: center;
+    border: 500px;
+    background-color: rgb(146, 243, 55);
+    padding: 1px;
+}
+nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(160, 248, 87);
+}
+
+nav a {
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(80, 247, 247);
+}
+
 form {
     border: 10px;
+}
+main {
+    margin-bottom: 30px;
+}
+form {
+    background-color: rgb(149, 247, 136);
+
+}
+
+.kina {
+    display: flex;
+    align-items: center;
+}
+
+input[type="submit"] {
+    font-size: large;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {   
+    form {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .pele {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
