@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+}
+nav {
+    padding: 10%;
+    border: 10%;
+    background-color: aqua;
+    text-align: center;
+    display: block;
+}
+nav a {
+    margin: 10px;
+    
+}
+div {
+    background-color: aquamarine;
+    margin-top:30px;
+}
+main {
+    background-color: beige;
+}
+#footer {
+    text-align: center;
+    color: rgb(247, 43, 36);
+}
