@@ -40,6 +40,7 @@ img {
 iframe {
     width:500px;
     border: thick solid rgb(20, 11, 11);
+    float: left;
 }
 
 aside {
@@ -56,6 +57,7 @@ aside {
 .pic {
     width: 100%;
 }
+
 
 @media only screen and (max-width: 950px) {   
     nav {
