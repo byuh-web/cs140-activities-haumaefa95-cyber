@@ -44,7 +44,7 @@ iframe {
 
 aside {
     float: left;
-    background-color: aliceblue;
+    background-color: rgb(32, 120, 197);
     width: 500px;
 }main {
     text-align:center;
@@ -54,7 +54,18 @@ aside {
     flex-direction: row;
     }
 .pic {
-    width: 100%;
+    width: 300px;
+}
+
+th {
+    border: 1px solid rgb(106, 165, 11);
+    padding: 5px;
+    background-color: #8cc9cc;
+    border-radius: 10px;
+}
+.taipola {
+    display: grid;
+
 }
 
 @media only screen and (max-width: 950px) {   
@@ -64,7 +75,7 @@ aside {
     }
     .topnav {
       overflow: hidden;
-      background-color: #c9d8d8;
+      background-color: rgb(36, 247, 251);
       position: relative;
     }
     .topnav #myLinks {
@@ -74,6 +85,11 @@ aside {
         background-color: rgb(36, 247, 251);
         width: 100%;
 
+    }
+    .container1{
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
     }
     .topnav a {
       color: white;
@@ -87,5 +103,7 @@ aside {
       background-color: #ddd;
       color: black;
     }
-
-    } 
+    .pic {
+        width: 100%;
+    }
+} 
