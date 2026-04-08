@@ -68,7 +68,11 @@ th {
     display: grid;
 
 }
+h2 {
+    background-color: rgb(110, 226, 64);
+    text-align: center;
 
+}
 
 @media only screen and (max-width: 950px) {   
     nav {
