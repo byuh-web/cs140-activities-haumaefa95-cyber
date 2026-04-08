@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    background-color: rgb(60, 55, 55);
+    padding: 10%;
+    color: aliceblue;
+}
+nav {
+    text-align: center;
+    background-color: rgb(153, 230, 204);
+    padding: 10px;
+}
+nav a {
+    align-items: center;
+    margin: 2%;
+    text-align: center;
+}
+.Tika {
+    background-color: aqua;
+    align-items: center;
+    padding:1%;
+}
+.Priya {
+    background-color: rgb(144, 232, 232);
+    margin-top: 1%;
+    padding: 10%;
+}
+#pele {
+    background-color: beige;
+    text-align: center;
+}
