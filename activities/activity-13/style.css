@@ -15,14 +15,16 @@ nav a {
     text-align: center;
 }
 
-div {
+section {
     display: flex;
-    align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: rgb(191, 236, 236);
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 img {
-    width: 100%;
+    width: 200px;
 }
 .Willy {
     display: flex;
@@ -31,37 +33,18 @@ img {
 footer {
         text-align: center;
         background-color: antiquewhite;
-    }
+}
 
-@media screen and (max-width: 600px) {  
-    body {
-        background-color: rgb(55, 145, 145);
-    } 
-    .Willy {
-        display: flex;
-        flex-direction:column;
+.buu {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
 
-    }
-    nav {
-        flex-direction: column;
-    }
-    aside {
-        background-color: rgb(209, 240, 227);
-        width: 100%;
-    }
-    div {
-        flex-direction: column;
-    }
-    img {
-        width: 100%;
-    }
-    .kaiga {
-        width: 100%;
-        background-color: rgb(152, 240, 211);
-    }
-    footer {
-        text-align: center;
-        background-color: aquamarine;
-        color: rgb(228, 31, 185);
-    }
+}
+.Bottom {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1px;
+    flex-direction: column;
+    text-align: center;
 }
