@@ -14,17 +14,54 @@ nav a {
     margin: 2%;
     text-align: center;
 }
-.Tika {
-    background-color: aqua;
+
+div {
+    display: flex;
     align-items: center;
-    padding:1%;
-}
-.Priya {
-    background-color: rgb(144, 232, 232);
-    margin-top: 1%;
-    padding: 10%;
-}
-#pele {
-    background-color: beige;
     text-align: center;
+    background-color: rgb(191, 236, 236);
+}
+img {
+    width: 100%;
+}
+.Willy {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+        text-align: center;
+        background-color: antiquewhite;
+    }
+
+@media screen and (max-width: 600px) {  
+    body {
+        background-color: rgb(55, 145, 145);
+    } 
+    .Willy {
+        display: flex;
+        flex-direction:column;
+
+    }
+    nav {
+        flex-direction: column;
+    }
+    aside {
+        background-color: rgb(209, 240, 227);
+        width: 100%;
+    }
+    div {
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+    }
+    .kaiga {
+        width: 100%;
+        background-color: rgb(152, 240, 211);
+    }
+    footer {
+        text-align: center;
+        background-color: aquamarine;
+        color: rgb(228, 31, 185);
+    }
 }
