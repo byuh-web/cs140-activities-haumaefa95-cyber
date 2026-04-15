@@ -55,6 +55,9 @@ aside {
     flex-direction: row;
     }
 .pic {
+<<<<<<< HEAD
+    width: 200px;
+=======
     width: 300px;
 }
 
@@ -72,6 +75,7 @@ h2 {
     background-color: rgb(110, 226, 64);
     text-align: center;
 
+>>>>>>> 68b8febc043c7dbf25c7f891f69df69adf91d80b
 }
 
 @media only screen and (max-width: 950px) {   
