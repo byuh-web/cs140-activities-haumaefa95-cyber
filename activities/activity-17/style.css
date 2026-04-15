@@ -23,6 +23,48 @@ nav {
     background-color: #f50f95;
     position: relative;
 }
+.seilona {
+    box-sizing: border-box;
+    padding: 1%;
+    text-align: center;
+    text-size-adjust: 12px;
+    clear: both;
+    border: 5px solid rgb(202, 118, 40);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #f5990f;
+    position: relative;
+}
+.haumaefa {
+    text-align: center;
+    background-color: rgb(236, 142, 18);
+    padding: 10%;
+    color: rgb(250, 250, 250);
+}
+.rio {
+    box-sizing: border-box;
+    padding: 1%;
+    text-align: center;
+    text-size-adjust: 12px;
+    clear: both;
+    border: 5px solid rgb(241, 238, 16);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: oklab(92.656% -0.08641 0.18958);
+    position: relative;
+}
+.kofei {
+    text-align: center;
+    background-color: rgb(231, 235, 30);
+    padding: 10%;
+    color: rgb(8, 8, 8);
+}
 nav a {
     color: white;
     padding: 14px 16px;
@@ -126,5 +168,26 @@ footer {
     }
     .pic {
         width: 100%;
+    }
+    .seilona {
+    box-sizing: border-box;
+    padding: 1%;
+    text-align: center;
+    text-size-adjust: 12px;
+    clear: both;
+    border: 5px solid rgb(202, 118, 40);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #f5990f;
+    position: relative;
+    }
+    .haumaefa {
+        text-align: center;
+        background-color: rgb(236, 142, 18);
+        padding: 10%;
+        color: rgb(255, 255, 255);
     }
 } 
