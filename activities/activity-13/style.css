@@ -15,6 +15,19 @@ nav a {
     text-align: center;
 }
 
+.Tika {
+    background-color: aqua;
+    align-items: center;
+    padding:1%;
+}
+.Priya {
+    background-color: rgb(144, 232, 232);
+    margin-top: 1%;
+    padding: 10%;
+}
+#pele {
+    background-color: beige;
+}
 section {
     display: flex;
     justify-content: center;
