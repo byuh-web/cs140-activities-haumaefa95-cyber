@@ -1,9 +1,12 @@
 header h1 {
     text-align: center;
-    background-color: rgb(19, 246, 250);
-    border: 3px solid rgb(68, 171, 226);
     margin: 20px 5px 20px 5px;
-
+}
+header {
+    text-align: center;
+    background-color: rgb(214, 49, 118);
+    padding: 10%;
+    color: rgb(255, 255, 255);
 }
 nav {
     box-sizing: border-box;
@@ -11,15 +14,116 @@ nav {
     text-align: center;
     text-size-adjust: 12px;
     clear: both;
-    background-color: rgb(19, 246, 250);
-    border: 5px solid rgb(103, 190, 236);
+    border: 5px solid rgb(202, 40, 148);
     display: flex;
     flex-wrap: wrap;
     align-self: center;
     justify-content: center;
     overflow: hidden;
-    background-color: #0eebf7;
+    background-color: #f50f95;
     position: relative;
+}
+.seilona {
+    box-sizing: border-box;
+    padding: 1%;
+    text-align: center;
+    text-size-adjust: 12px;
+    clear: both;
+    border: 5px solid rgb(202, 118, 40);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #f5990f;
+    position: relative;
+}
+.haumaefa {
+    text-align: center;
+    background-color: rgb(236, 142, 18);
+    padding: 10%;
+    color: rgb(250, 250, 250);
+}
+.rio {
+    box-sizing: border-box;
+    padding: 1%;
+    text-align: center;
+    text-size-adjust: 12px;
+    clear: both;
+    border: 5px solid rgb(241, 238, 16);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: oklab(92.656% -0.08641 0.18958);
+    position: relative;
+}
+.kofei {
+    text-align: center;
+    background-color: rgb(231, 235, 30);
+    padding: 10%;
+    color: rgb(8, 8, 8);
+}
+.nto {
+    box-sizing: border-box;
+    padding: 1%;
+    text-align: center;
+    text-size-adjust: 12px;
+    clear: both;
+    border: 5px solid rgb(235, 233, 195);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: oklab(74.021% -0.01098 0.03156);
+    position: relative;
+}
+.shark {
+    text-align: center;
+    background-color: rgb(188, 189, 155);
+    padding: 10%;
+    color: rgb(8, 8, 8);
+}
+.new {
+    text-align: center;
+    background-color: rgb(184, 3, 184);
+    padding: 10%;
+    color: rgb(8, 8, 8);
+}
+.teri {
+    box-sizing: border-box;
+    padding: 1%;
+    text-align: center;
+    text-size-adjust: 12px;
+    clear: both;
+    border: 5px solid rgb(192, 4, 183);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: oklab(60.407999999999994% 0.21324 -0.20103);
+    position: relative;
+}
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(191, 236, 236);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Willy {
+    display: flex;
+    flex-direction: column;
+}
+.buu {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(245, 245, 245);
+
 }
 nav a {
     color: white;
@@ -27,7 +131,10 @@ nav a {
     text-decoration: none;
     font-size: 17px;
 }
-
+.fakatomuaga {
+    text-align: left;
+    padding: 5px;
+}
 nav a:hover {
     background-color: #ddd;
     color: black;
@@ -55,9 +162,7 @@ aside {
     flex-direction: row;
     }
 .pic {
-<<<<<<< HEAD
-    width: 200px;
-=======
+    width: 200%;
     width: 300px;
 }
 
@@ -72,10 +177,16 @@ th {
 
 }
 h2 {
-    background-color: rgb(110, 226, 64);
     text-align: center;
-
->>>>>>> 68b8febc043c7dbf25c7f891f69df69adf91d80b
+}
+.hana {
+       width: 200px;
+    width: 300px;
+}
+footer {
+    background-color: rgb(233, 102, 168);
+    text-align: center;
+    padding: 20px;
 }
 
 @media only screen and (max-width: 950px) {   
@@ -85,13 +196,14 @@ h2 {
     }
     .topnav {
       overflow: hidden;
-      background-color: rgb(36, 247, 251);
+      background-color: rgb(216, 37, 136);
       position: relative;
+      border: 5px solid rgb(209, 6, 142);
     }
     .topnav #myLinks {
       display: none;
     }
-     aside {
+    aside {
         background-color: rgb(36, 247, 251);
         width: 100%;
 
@@ -107,6 +219,7 @@ h2 {
       text-decoration: none;
       font-size: 17px;
       display: block;
+      
     }
 
     .topnav a:hover {
@@ -115,5 +228,26 @@ h2 {
     }
     .pic {
         width: 100%;
+    }
+    .seilona {
+    box-sizing: border-box;
+    padding: 1%;
+    text-align: center;
+    text-size-adjust: 12px;
+    clear: both;
+    border: 5px solid rgb(202, 118, 40);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #f5990f;
+    position: relative;
+    }
+    .haumaefa {
+        text-align: center;
+        background-color: rgb(236, 142, 18);
+        padding: 10%;
+        color: rgb(255, 255, 255);
     }
 } 

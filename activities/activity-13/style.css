@@ -27,5 +27,37 @@ nav a {
 }
 #pele {
     background-color: beige;
+}
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(191, 236, 236);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img {
+    width: 200px;
+}
+.Willy {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+        text-align: center;
+        background-color: antiquewhite;
+}
+
+.buu {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+
+}
+.Bottom {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1px;
+    flex-direction: column;
     text-align: center;
 }
