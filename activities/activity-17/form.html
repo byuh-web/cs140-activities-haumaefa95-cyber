@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Welcome to my form project</h1></header>
+    <main>
+        <nav>
+            <a href="1tuvalu.html">Home</a>
+            <a href="2nanumea.html">Nanumea</a> 
+            <a href="3nanumaga.html">Nanumaga</a>
+            <a href="4niutao.html">Niutao</a>
+            <a href="5nui.html">Nui</a>
+            <a href="home">Forms</a>
+        </nav>
+    <form id="myForm" action="font.json" method="GET">
+
+        <fieldset>
+            <legend><b>Personal information</b></legend>
+
+        <label for="Name">First Name:</label>
+        <input type="text" id="Name" name="name"><br>
+        <label for="Name">Last Name:</label>
+        <input type="text" id="Name" name="name"><br><br>
+
+        <label for="Name">Country:</label>
+        <input type="text" id="Country" name="name"><br><br>
+
+        <div class="pele">
+            <label  for="username">Username:</label>
+            <input type="text" id="username" name="username"><br>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br>
+        </div>
+        </fieldset><br><br>
+        <fieldset>
+            <legend><b>Additional information</b></legend>
+        <p>Gender:</p>
+        <div class="kina">
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Male">Male</label><br>
+
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label><br><br>
+        </div><br>
+
+        <label for="Hobbies">Hobbies:</label>
+        <select id="Hobbie" name="Hobbie" aria-placeholder="option">
+            <option disabled hidden selected>Choose One</option>
+            <option>Eating</option>
+            <option>Sleeping</option>
+            <option>Scrolling</option>
+            <option>Please give me full point lol</option>
+        </select><br><br>
+
+        <label for="numbers">Number of Semester:</label>
+        <input type="number" id="numbers" name="numbers"><br><br>
+
+        <label for="email">Email address:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        
+        <label for="text">Check what are you good at;</label><br>
+        <div>
+            <input type="checkbox" name="skills" id="html" value="HTML">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" name="skills" id="css" value="CSS">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" name="skills" id="eating candies" value="eating candies">
+            <label for="eating candies">EATING CANDIES</label><br><br>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Feed backs</b></legend>
+
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" rows="4" cols="30"></textarea><br><br>
+
+        </fieldset><br>
+
+        <input type="submit" value="submit">
+
+    </form>
+    </main>
+    <footer>&copy; Pelekina</footer>
+</body>
+<script src="form.js"></script>
+</html>
